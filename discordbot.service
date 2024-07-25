@@ -1,0 +1,14 @@
+[Unit]
+Description=DiscordBotPython
+After=syslog.target network.target
+
+[Service]
+Environment="DISCORD_TOKEN=TOKEN"
+Type=simple
+User=root
+WorkingDirectory=/skins/discordbot
+ExecStart=/skins/discordbot/venv/bin/python -OO /skins/discordbot/main.py
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
