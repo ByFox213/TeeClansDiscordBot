@@ -1,0 +1,8 @@
+---
+modal:
+  wait: Your application has already been sent to the moderator for review, please wait.
+  registred: You are already registered, if you do not have a role please contact the administrators.
+  sended: The application has been sent
+  wait_moder: You'll get a message when the moderators accept you.
+  agenotallow: You're not allowed to use discord at your age
+
