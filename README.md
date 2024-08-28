@@ -1,3 +1,6 @@
+# RU BOT
+The bot was developed for the ru-community, so the bot is translated into ru only.
+
 # Install package
 
 ```bash
